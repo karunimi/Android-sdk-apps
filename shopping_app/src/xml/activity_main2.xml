@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catogories"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginStart="90dp"
+        android:textColor="@color/black"/>
+    <ImageButton
+        android:id="@+id/general_bt"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:src="@drawable/general_wear"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"/>
+    <ImageButton
+        android:id="@+id/hijab_bt"
+        android:layout_marginTop="315dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hibab_friendly"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/maternity_bt"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:src="@drawable/maternity_wear"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

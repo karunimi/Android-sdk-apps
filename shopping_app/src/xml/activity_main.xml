@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!-- #8ECDDD-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO OUR"
+        android:layout_marginTop="-170dp"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="#22668D"
+        android:layout_marginStart="110dp"
+        app:layout_constraintStart_toStartOf="@+id/page_1_bg"
+        app:layout_constraintTop_toTopOf="@+id/page_1_bg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOPPING APP"
+        android:fontFamily="monospace"
+        android:textColor="#22668D"
+        android:layout_marginTop="-142dp"
+        android:textSize="35sp"
+        android:layout_marginStart="70dp"
+        app:layout_constraintStart_toStartOf="@+id/page_1_bg"
+        app:layout_constraintTop_toTopOf="@+id/page_1_bg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore the latest trends in women's fashion with our\nchic shopping app. Elevate your wardrobe effortlessly!"
+        android:layout_marginTop="-30dp"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="@+id/page_1_bg"
+        app:layout_constraintTop_toTopOf="@+id/page_1_bg"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get started"
+        android:backgroundTint="#FFF0CE"
+        android:textColor="#EC8F5E"
+        android:textSize="17dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/page_1_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/page_1_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

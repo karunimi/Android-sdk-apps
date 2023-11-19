@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity4">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:src="@drawable/d2_removebg"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black Maxi"
+        android:textColor="#B0578D"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹2000"
+        android:textColor="#E48586"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="435dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rating"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="373dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elevate your style with our elegant black maxi dress, sleeveless for comfort, adorned with a lovely belt for a charming touch."
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="505dp"/>
+    <!-- Your layout XML file -->
+    <!-- Your layout file, e.g., activity_main.xml -->
+    <Spinner
+        android:id="@+id/sizeSpinner"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/dress_sizes"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#FFF6F6"
+        android:background="#F875AA"
+        android:prompt="@string/choose_size_prompt"/>
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="150dp"
+        android:textColor="#FDF0F0"
+        android:text="Buy Now"
+        android:backgroundTint="#F1B4BB"
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
